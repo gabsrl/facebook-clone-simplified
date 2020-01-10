@@ -1,20 +1,14 @@
-#post-list {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
 div.post {
     width: 590px;
     background-color: #FFF;
     margin: 20px 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-    padding-top: 18px;
-    padding-left: 18px;
+    padding: 18px 18px;
 
 }
 div.post .post-content {
+    text-align: justify;
     margin-top: 15px;
     padding-bottom: 20px;
     width: 100%;
