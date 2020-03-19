@@ -19,6 +19,8 @@ function Post() {
                 conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...
                 conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla...
             </div>
+            <br/>
+            <Comment />
             <Comment />
         </div>
     );

@@ -9,7 +9,9 @@ class App extends Component {
         return (
             <>
                 <Header />
-                <PostList />
+                <div id="main-content">
+                    <PostList />
+                </div>
             </>
         );
     }
