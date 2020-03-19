@@ -10,7 +10,7 @@ function Post() {
             <div className="user-profile">
                 <img src={userImage} />
                 <div className="user-profile-info">
-                    Rosa Souza <br />
+                    Rosa Souza <br/>
                     <span>04 Jun 2019</span>
                 </div>
             </div>

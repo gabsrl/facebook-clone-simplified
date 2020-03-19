@@ -24,14 +24,14 @@ div.user-profile {
 div.user-profile div.user-profile-info {
     flex-direction: column;
     margin-left: 10px;
-    color: #444444;
-    font-size: 15px;
+    color: #616161;
+    font-size: 12px;
     font-weight: 700;
 }
 div.user-profile div.user-profile-info span {
     font-size: 10px;
     font-weight: normal;
-    color: #c6c6c6;
+    color: #919090;
 }
 
 div.user-profile img {
