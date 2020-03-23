@@ -4,24 +4,26 @@ import userImage from '../../assets/rosa.jpg'
 import Comment from '../Comment';
 
 
-function Post() {
+function Post(props) {
     return (
         <div className="post">
             <div className="user-profile">
-                <img src={userImage} />
+                <img src={props.author.avatar} />
                 <div className="user-profile-info">
-                    Rosa Souza <br/>
-                    <span>04 Jun 2019</span>
+                    {props.author.name} <br/>
+                    <span>{props.date}</span>
                 </div>
             </div>
             <div className="post-content">
-                Conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla...
-                conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...
-                conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla...
+                {props.content}              
             </div>
             <br/>
-            <Comment />
-            <Comment />
+            {
+                props.comments.map(item => (
+                    <Comment author={item.author} content={item.content} />
+                )) 
+            }
+            
         </div>
     );
 }

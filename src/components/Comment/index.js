@@ -1,16 +1,13 @@
 import React from 'react';
 import './Comment.css';
 import man from '../../assets/man.jpg';
-function Comment() {
+function Comment(props) {
     return (
         <div className="comment">
-            <img src={man}/>
+            <img src={props.author.avatar}/>
             <div className="comment-content">
-                <span>Rodrigo Otávio</span>
-                lorem impsum lorem lorem impsum lorem dolor sit amet
-                impsum lorem dolor sit amet impsum lorem dolor sit amet
-                impsum lorem dolor sit amet impsum lorem dolor sit amet
-                lorem impsum lorem lorem impsum lorem dolor sit amet.
+                <span>{props.author.name}</span>
+                {props.content}
             </div>
         </div>
     );
