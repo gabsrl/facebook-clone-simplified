@@ -19,11 +19,11 @@ function Post(props) {
             </div>
             <br/>
             {
+                props.comments ?
                 props.comments.map(item => (
                     <Comment author={item.author} content={item.content} />
-                )) 
-            }
-            
+                )) : null
+            }           
         </div>
     );
 }
