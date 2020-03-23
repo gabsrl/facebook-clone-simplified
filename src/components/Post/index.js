@@ -1,7 +1,7 @@
 import React from 'react';
 import './Post.css';
-import userImage from '../assets/rosa.jpg'
-import Comment from './Comment';
+import userImage from '../../assets/rosa.jpg'
+import Comment from '../Comment';
 
 
 function Post() {
@@ -15,7 +15,7 @@ function Post() {
                 </div>
             </div>
             <div className="post-content">
-                conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla...
+                Conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla...
                 conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...conteúdo do post bla bla bla...
                 conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla... conteúdo do post bla bla bla...
             </div>

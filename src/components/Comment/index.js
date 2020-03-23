@@ -1,12 +1,12 @@
 import React from 'react';
 import './Comment.css';
-import man from '../assets/man.jpg';
+import man from '../../assets/man.jpg';
 function Comment() {
     return (
         <div className="comment">
             <img src={man}/>
             <div className="comment-content">
-                <span>Lorenzo Rafael</span>
+                <span>Rodrigo Otávio</span>
                 lorem impsum lorem lorem impsum lorem dolor sit amet
                 impsum lorem dolor sit amet impsum lorem dolor sit amet
                 impsum lorem dolor sit amet impsum lorem dolor sit amet
