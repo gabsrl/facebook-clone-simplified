@@ -4,7 +4,7 @@ div.post {
     background-color: #FFF;
     margin-bottom: 5px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
     padding: 18px 18px;
 }
 div.post .post-content {
@@ -13,9 +13,9 @@ div.post .post-content {
     padding-bottom: 20px;
     width: 100%;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 14px;
     color: #444444;
-    border-bottom: 0.5px solid #c6c6c6;
+    border-bottom: 0.5px solid  #e6e6e6;
 }
 
 div.user-profile {
