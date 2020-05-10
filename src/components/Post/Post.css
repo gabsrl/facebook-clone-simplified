@@ -13,7 +13,7 @@ div.post .post-content {
     padding-bottom: 20px;
     width: 100%;
     flex-wrap: wrap;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #444444;
     border-bottom: 0.5px solid  #e6e6e6;
 }
@@ -26,11 +26,11 @@ div.user-profile div.user-profile-info {
     flex-direction: column;
     margin-left: 10px;
     color: #616161;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 div.user-profile div.user-profile-info span {
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: normal;
     color: #919090;
 }

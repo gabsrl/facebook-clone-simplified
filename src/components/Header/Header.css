@@ -26,3 +26,9 @@ nav div.my-profile svg {
     margin: 0 10px;
     fill: rgb(255, 255, 255);
 }
+
+@media (max-width: 425px) {
+    nav div.my-profile a {
+        display: none;
+    }
+}
