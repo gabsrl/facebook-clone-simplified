@@ -19,3 +19,10 @@ body {
     flex-direction: column;
     width: 100vw;
 }
+
+/* Adição de media querie para dar responsividade ao texto */
+@media (max-width: 425px) {
+    html {
+        font-size: 50%;
+    }
+}
