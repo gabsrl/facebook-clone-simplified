@@ -1,7 +1,7 @@
 ReactJS project created and configured manually with webpack.
 
 ## About the project
-An Facebook simplified interface made with ReactJS.
+A Facebook simplified interface made with ReactJS.
 
 ## Start the project
 
